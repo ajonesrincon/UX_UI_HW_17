@@ -40,37 +40,4 @@ footer ul {
     padding: 5%;
 }
 
-.flexContainer {
-    display: flex;
-    justify-content: space-around;
-}
 
-.skillCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30%;
-}
-
-#myWork-Grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: content 1fr 1fr 1fr;
-    grid-template-areas: 
-   'project-details'
-   'project-details'
-   'project-details';
-}
-
-@media only screen and (max-width: 600px) {
-#myWork-Grid {
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: content 1fr 1fr 1fr;
-    grid-template-areas:
-    "project-details"
-    "project-details"
-    "project-details";
-}
-    
-}
